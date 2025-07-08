@@ -39,7 +39,7 @@ body {
   list-style-type: none;
 }
 nav {
-  background-image: url("../assets/sec2/BG\ nav.png");
+  background-image: url("assets/sec2/BG\ nav.png");
 }
 .nav_items {
   display: flex;
@@ -144,7 +144,7 @@ nav {
 }
 
 .section2 {
-  background-image: url("../assets/sec2/bg.png");
+  background-image: url("assets/sec2/bg.png");
   background-repeat: no-repeat;
   margin-left: 15.3125rem;
   margin-right: 12.07125rem;
