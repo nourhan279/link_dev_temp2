@@ -1,16 +1,16 @@
 @font-face {
   font-family: "gilroy";
-  src: url("../fonts/gilroy/Gilroy-Bold.ttf") format("ttf");
+  src: url("/fonts/gilroy/Gilroy-Bold.ttf") format("ttf");
   font-weight: bold;
 }
 @font-face {
   font-family: "gilroy";
-  src: url("../fonts/gilroy/Gilroy-Regular.ttf") format("ttf");
+  src: url("/fonts/gilroy/Gilroy-Regular.ttf") format("ttf");
   font-weight: normal;
 }
 @font-face {
   font-family: "gilroy";
-  src: url("../fonts/gilroy/Gilroy-Light.ttf") format("ttf");
+  src: url("/fonts/gilroy/Gilroy-Light.ttf") format("ttf");
   font-weight: lighter;
 }
 :root {
@@ -39,7 +39,7 @@ body {
   list-style-type: none;
 }
 nav {
-  background-image: url("assets/sec2/BG\ nav.png");
+  background-image: url("/assets/sec2/BG_nav.png");
 }
 .nav_items {
   display: flex;
@@ -144,7 +144,7 @@ nav {
 }
 
 .section2 {
-  background-image: url("assets/sec2/bg.png");
+  background-image: url("/assets/sec2/bg.png");
   background-repeat: no-repeat;
   margin-left: 15.3125rem;
   margin-right: 12.07125rem;
