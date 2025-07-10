@@ -1,33 +1,3 @@
-@font-face {
-  font-family: "gilroy";
-  src: url("fonts/Gilroy-Bold.woff") format("woff");
-  font-weight: bold;
-}
-@font-face {
-  font-family: "gilroy";
-  src: url("fonts/Gilroy-Regular.woff") format("woff");
-  font-weight: normal;
-}
-@font-face {
-  font-family: "gilroy";
-  src: url("fonts/Gilroy-Light.woff") format("woff");
-  font-weight: lighter;
-}
-:root {
-  --main-color: rgb(246, 75, 75);
-}
-* {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-  font-size: 16px;
-  color: rgb(22, 28, 45);
-}
-body {
-  font-family: "gilroy";
-  font-weight: normal;
-}
-
 #navv a,
 #navv li {
   text-decoration: none;
@@ -224,7 +194,7 @@ body {
   padding-right: 1.6875rem;
 }
 
-.greenn {
+.sec2-green {
   background-color: rgb(104, 213, 133);
 }
 
@@ -237,11 +207,11 @@ body {
 .third_h3 {
   padding-top: 2.646rem;
 }
-.bluee {
+.sec2-blue {
   background-color: rgb(71, 59, 240);
 }
 
-.redd {
+.sec2-red {
   background-color: var(--main-color);
 }
 .sec2_last_span {

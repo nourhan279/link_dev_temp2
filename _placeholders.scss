@@ -1,0 +1,31 @@
+@font-face {
+  font-family: "gilroy";
+  src: url("fonts/Gilroy-Bold.woff") format("woff");
+  font-weight: bold;
+}
+@font-face {
+  font-family: "gilroy";
+  src: url("fonts/Gilroy-Regular.woff") format("woff");
+  font-weight: normal;
+}
+@font-face {
+  font-family: "gilroy";
+  src: url("fonts/Gilroy-Light.woff") format("woff");
+  font-weight: lighter;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-size: 16px;
+  color: rgb(22, 28, 45);
+}
+body {
+  font-family: "gilroy";
+  font-weight: normal;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}

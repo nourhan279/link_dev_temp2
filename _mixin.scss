@@ -1,0 +1,7 @@
+@mixin sec2-bg {
+  @each $name, $value in $colors {
+    &--#{$name} {
+      background-color: $value;
+    }
+  }
+}

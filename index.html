@@ -4,117 +4,141 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Template2</title>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="style2.css" />
   </head>
   <body>
-    <div id="full_content">
-      <nav>
-        <div class="container">
-          <a id="logo" href="#">Brainwave.io</a>
-          <ul id="navv">
-            <li class="nav_items"><a href="#">Demos</a></li>
-            <li class="nav_items"><a href="#">Pages</a></li>
-            <li class="nav_items"><a href="#">Support</a></li>
-            <li class="nav_items"><a href="#">Contact</a></li>
-          </ul>
+    <nav class="navbar">
+      <div class="navbar__container">
+        <a class="navbar__logo" href="#">Brainwave.io</a>
+        <ul class="navbar__menu">
+          <li class="navbar__item">
+            <a class="navbar__link" href="#">Demos</a>
+          </li>
+          <li class="navbar__item">
+            <a class="navbar__link" href="#">Pages</a>
+          </li>
+          <li class="navbar__item">
+            <a class="navbar__link" href="#">Support</a>
+          </li>
+          <li class="navbar__item">
+            <a class="navbar__link" href="#">Contact</a>
+          </li>
+        </ul>
+        <button class="navbar__button">Get started a project</button>
+      </div>
 
-          <button class="nav_button">Get started a project</button>
+      <div class="navbar__hero">
+        <div class="navbar__content">
+          <span class="navbar__tagline">let's shift your business</span>
+          <h1 class="navbar__title">
+            Shift your business fast with Shade Pro.
+          </h1>
+          <article class="navbar__desc">
+            With lots of unique blocks, you can easily build a page without
+            coding. Build your next consultancy website within few minutes.
+          </article>
+          <button class="navbar__cta">Get started a project</button>
         </div>
-        <div class="nav_down_wrapper">
-          <div class="nav_down_part">
-            <span class="uppercase s1">let's shift your business</span>
-            <h1 class="header1">Shift your business fast with Shade Pro.</h1>
-            <article class="a1">
-              With lots of unique blocks, you can easily build a page without
-              coding. Build your next consultancy website within few minutes.
-            </article>
-            <button class="b1">Get started a project</button>
-          </div>
-          <div class="image_wrapper">
-            <img class="circles" src="assets/sec2/Fill 1.svg" alt="circles" />
 
-            <div class="round_image">
-              <img
-                class="girl_img"
-                src="assets/sec2/Oval.png"
-                alt="girl image"
-              />
-              <img
-                class="round"
-                src="assets/sec2/round.svg"
-                alt="round circle"
-              />
-              <img class="waves" src="assets/sec2/waves.svg" alt="waves" />
-            </div>
-          </div>
-        </div>
-      </nav>
-
-      <div class="section2">
-        <div class="header">
-          <h1 class="uppercase header_span">our services</h1>
-          <h2 class="header_para">
-            We provide great services for out customer based on needs
-          </h2>
-        </div>
-        <div id="section2_content">
-          <div class="section2_small greenn">
+        <div class="navbar__image-wrapper">
+          <img
+            class="navbar__circles"
+            src="assets/sec2/Fill 1.svg"
+            alt="circles"
+          />
+          <div class="navbar__round-image">
             <img
-              class="topimg"
-              src="assets/sec2/Designer-rafiki.svg"
-              alt="defigner"
-              width="117.75"
-              height="132.35"
+              class="navbar__girl"
+              src="assets/sec2/Oval.png"
+              alt="girl image"
             />
-            <h3 class="first_h3">Graphic Design</h3>
-            <article>
-              With lots of unique of blocks, you can easily bulid a page wihout
-              coding. Build your next landing page.
-            </article>
-            <div class="sec2_last_span">
-              <span>Learn More</span>
-              <img src="assets/sec2/tail-right.svg" alt="tail arrow" />
-            </div>
-          </div>
-
-          <div class="section2_small bluee">
             <img
-              class="topimg"
-              src="assets/sec2/Programming-rafiki.svg"
-              alt="programming"
-              width="145.46"
-              height="134.52"
+              class="navbar__round"
+              src="assets/sec2/round.svg"
+              alt="round circle"
             />
-            <h3 class="second_h3">Web Development</h3>
-            <article>
-              With lots of unique of blocks, you can easily bulid a page wihout
-              coding. Build your next landing page.
-            </article>
-            <div class="sec2_last_span">
-              <span>Learn More</span>
-              <img src="assets/sec2/tail-right.svg" alt="tail arrow" />
-            </div>
-          </div>
-          <div class="section2_small redd">
             <img
-              class="topimg"
-              src="assets/sec2/Notes-rafiki.svg"
-              alt="notes"
-              width="114.58"
-              height="142.35"
+              class="navbar__waves"
+              src="assets/sec2/waves.svg"
+              alt="waves"
             />
-            <h3 class="third_h3">Content Writing</h3>
-            <article>
-              With lots of unique of blocks, you can easily bulid a page wihout
-              coding. Build your next landing page.
-            </article>
-            <div class="sec2_last_span">
-              <span>Learn More</span>
-              <img src="assets/sec2/tail-right.svg" alt="tail arrow" />
-            </div>
           </div>
         </div>
       </div>
-    </div>
+    </nav>
+
+    <section class="services">
+      <div class="services__header">
+        <h1 class="services__subtitle">our services</h1>
+        <h2 class="services__title">
+          We provide great services for out customer based on needs
+        </h2>
+      </div>
+
+      <div class="services__content">
+        <div class="services__card services__card--main-green">
+          <img
+            class="services__image"
+            src="assets/sec2/Designer-rafiki.svg"
+            alt="designer"
+            width="117.75"
+            height="132.35"
+          />
+          <h3 class="services__heading services__heading--first">
+            Graphic Design
+          </h3>
+          <article class="services__text">
+            With lots of unique of blocks, you can easily bulid a page wihout
+            coding. Build your next landing page.
+          </article>
+          <div class="services__footer">
+            <span class="services__learn">Learn More</span>
+            <img src="assets/sec2/tail-right.svg" alt="tail arrow" />
+          </div>
+        </div>
+
+        <div class="services__card services__card--main-blue">
+          <img
+            class="services__image"
+            src="assets/sec2/Programming-rafiki.svg"
+            alt="programming"
+            width="145.46"
+            height="134.52"
+          />
+          <h3 class="services__heading services__heading--second">
+            Web Development
+          </h3>
+          <article class="services__text">
+            With lots of unique of blocks, you can easily bulid a page wihout
+            coding. Build your next landing page.
+          </article>
+          <div class="services__footer">
+            <span class="services__learn">Learn More</span>
+            <img src="assets/sec2/tail-right.svg" alt="tail arrow" />
+          </div>
+        </div>
+
+        <div class="services__card services__card--main-red">
+          <img
+            class="services__image"
+            src="assets/sec2/Notes-rafiki.svg"
+            alt="notes"
+            width="114.58"
+            height="142.35"
+          />
+          <h3 class="services__heading services__heading--third">
+            Content Writing
+          </h3>
+          <article class="services__text">
+            With lots of unique of blocks, you can easily bulid a page wihout
+            coding. Build your next landing page.
+          </article>
+          <div class="services__footer">
+            <span class="services__learn">Learn More</span>
+            <img src="assets/sec2/tail-right.svg" alt="tail arrow" />
+          </div>
+        </div>
+      </div>
+    </section>
   </body>
 </html>
